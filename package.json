@@ -1,0 +1,45 @@
+{
+  "name": "bitcore-ecies-square",
+  "version": "1.0.4",
+  "description": "ECIES implemented for Bitcore-Square.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-ecies-square.git"
+  },
+  "keywords": [
+    "square",
+    "bitcore",
+    "ecies",
+    "crypto",
+    "cryptography",
+    "encryption"
+  ],
+  "author": "BitPay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-ecies-square/issues"
+  },
+  "homepage": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-ecies-square",
+  "devDependencies": {
+    "assert": "^1.1.2",
+    "bitcore-build-square": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-build-square",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10"
+  },
+  "dependencies": {
+    "aes": "^0.1.0",
+    "bitcore-lib-square": "https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-lib-square"
+  }
+}
